@@ -1,11 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>P Ticket</title>
+    <!--? Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!--? Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- ? Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/b9757d8d64.js" crossorigin="anonymous"></script>
+    <!-- ? Font setup -->
+    <Style>
+        /* Raleway font */
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+        .raleway {
+            font-family: "Raleway", sans-serif;
+        }
+
+        .inter {
+            font-family: "Inter", sans-serif;
+
+        }
+    </Style>
+
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+    <main>
+        <section class="w-11/12 mx-auto mt-8">
+            <div class="text-center w-4/12 mx-auto">
+                <h1 class="text-3xl font-bold raleway">P.H Paribahan</h1>
+                <p class="inter text-slate-500 ">Yes, you can run unit tests and view the results directly within the
+                    app. The integrated testing features
+                    allow for a streamlined .</p>
+            </div>
+
+            <!-- ! Container -->
+
+            <div class="mt-4">
+                <!--? Left -->
+                <div class="flex items-center gap-2">
+                    <img src="./images/bus-logo.png" alt="">
+                    <div>
+                        <h2 class="text-2xl font-bold raleway">Greenline Paribahan</h2>
+                        <p class="inter text-slate-500">Coach-009-WEB ! AC_Business</p>
+                    </div>
+                </div>
+                <!--? Right -->
+                <div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <!--! Ticket Section -->
+        <section class="w-11/12 mx-auto mt-24">
+            <!-- ? Container -->
+            <div class="grid grid-cols-3 gap-4">
+                <!-- 1st -->
+                <!-- ! Bus Seat -->
+                <div class="col-span-2 px-4 bg-slate-700 ">
+                    <p>Select Your Seat</p>
+                    <div class="grid grid-cols-11  items-center">
+                        <p class="col-span-1">A</p>
+                        <button class="btn col-span-2">A1</button>
+                        <button class="btn col-span-2">A2</button>
+                        <p class="col-span-2"></p>
+                        <button class="btn col-span-2">A3</button>
+                        <button class="btn col-span-2">A4</button>
+                        <p class="col-span-1">A</p>
+                        <button class="btn col-span-2">A1</button>
+                        <button class="btn col-span-2">A2</button>
+                        <p class="col-span-2"></p>
+                        <button class="btn col-span-2">A3</button>
+                        <button class="btn col-span-2">A4</button>
+                        
+
+
+
+
+
+                    </div>
+
+
+
+                </div>
+
+                <!-- ! Bus Seat End -->
+                <!-- 2nd -->
+                <!-- ! Description about seat -->
+                <div class="bg-slate-500 px-4">
+                    <p>Select Your Seat</p>
+
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+
+    </main>
+    <footer>
+
+    </footer>
+
 </body>
+
 </html>
